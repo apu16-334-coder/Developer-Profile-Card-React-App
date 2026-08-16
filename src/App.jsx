@@ -1,7 +1,9 @@
+import PageHeader from "./components/PageHeader";
+
 function App() {
     return (
         <>
-            <h1>Welcome to my Developer Profile Card App</h1>
+            <PageHeader title='Welcome To Developer Profile List' />
         </>
     )
 }
