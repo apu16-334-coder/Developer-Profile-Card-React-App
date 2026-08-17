@@ -1,8 +1,6 @@
 function PageFooter() {
     return (
-        <>
-            <h3>@ Author Muhammad Apu Hossain</h3>
-        </>
+        <h3>@ Author Muhammad Apu Hossain</h3>
     )
 }
 

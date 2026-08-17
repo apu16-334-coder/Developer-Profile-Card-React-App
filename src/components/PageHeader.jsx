@@ -1,8 +1,6 @@
-function PageHeader({title}) {
+function PageHeader({ title }) {
     return (
-        <>
-            <h1>{title}</h1>
-        </>
+        <h1>{title}</h1>
     )
 }
 
