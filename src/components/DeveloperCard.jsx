@@ -5,8 +5,11 @@ function DeveloperCard({name, role, location, skills, isAvailable, level}) {
             <p>{role}</p>
             <p>{location}</p>
             <p>{skills}</p>
-            <p>{isAvailable}</p>
-            <p>{level}</p>
+            <p>{isAvailable ? '✅ Open to work' : '❌ Not available'}</p>
+            <p><span>{level === 'Senior' && '⭐'} {level}</span></p>
+            
+            <button>View Profile</button>
+            
         </>
     )
 }
