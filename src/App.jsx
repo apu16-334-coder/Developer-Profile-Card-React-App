@@ -1,5 +1,6 @@
 import PageHeader from "./components/PageHeader";
 import DeveloperCard from "./components/DeveloperCard";
+import PageFooter from "./components/PageFooter";
 
 const developers = [
   {
@@ -49,7 +50,10 @@ function App() {
     return (
         <>
             <PageHeader title='Welcome To Developer Profile List' />
+            
             {developerCard}
+
+            <PageFooter />
         </>
     )
 }
